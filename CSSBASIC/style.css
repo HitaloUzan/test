@@ -1,10 +1,63 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-body{
+h1 {
+    color: #fff;
+}
+
+h2 {
+    color: #ccc;
+}
+
+h3 {
+    color: #555;
+}
+
+p {
+    color: #333;
+}
+
+a{
+    text-decoration: none;
+    color:  #fff;
+}
+
+.btn-primary{
+    display: block;
+    background-color: #5fe36a;
+    color: #1a1a1a;
+    width: 320px;
+    height: 56px;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.btn-secondary{
+    display: block;
+    background-color: transparent;
+    color: #fff;
+    width: 320px;
+    height: 56px;
+    text-align: center;
+    border-radius: 16px;
+    border: 2px solid #5fe36a;
+}
+
+#btn-checkout{
+    display: block;
+    background-color: transparent;
+    color: #fff;
+    width: 520px;
+    height: 120px;
+    text-align: center;
+    border-radius: 16px;
+    border: 2px solid blue;
+}
+
+body {
     background-color: #1a1a1a;
 }
-h1 {color: green}
