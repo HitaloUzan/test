@@ -6,7 +6,12 @@
 }
 
 h1 {
+    font-family:  "Poppins", sans-serif;
     color: #fff;
+    font-weight: 200;
+    font-size: 100px;
+    font-style: italic;
+    letter-spacing: 5px;
 }
 
 h2 {
@@ -21,12 +26,12 @@ p {
     color: #333;
 }
 
-a{
+a {
     text-decoration: none;
-    color:  #fff;
+    color: #fff;
 }
 
-.btn-primary{
+.btn-primary {
     display: block;
     background-color: #5fe36a;
     color: #1a1a1a;
@@ -36,7 +41,7 @@ a{
     border-radius: 16px;
 }
 
-.btn-secondary{
+.btn-secondary {
     display: block;
     background-color: transparent;
     color: #fff;
@@ -47,7 +52,7 @@ a{
     border: 2px solid #5fe36a;
 }
 
-#btn-checkout{
+#btn-checkout {
     display: block;
     background-color: transparent;
     color: #fff;
@@ -61,3 +66,15 @@ a{
 body {
     background-color: #1a1a1a;
 }
+
+section {
+    padding: 50px;
+    margin: 20px auto;
+    width: 80%;
+    height: 500px;
+
+    background-image: url("img/Praia.jpg");
+    background-size: contain;
+    background-repeat: repeat-x;
+}   
+
